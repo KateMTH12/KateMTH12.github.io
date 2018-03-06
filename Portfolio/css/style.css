@@ -1,0 +1,43 @@
+.mdl-layout__drawer{
+	box-shadow:none;
+	border:none;
+	background: white
+
+}
+.full-page{
+	display:block;
+	margin:auto;
+	width:80%;
+	margin-top:1.5em;
+}
+.mdl-cell.mdl-cell--6-col-mdl-cell--4-col-tablet{
+	display:block;
+	margin:auto;
+}
+.grid-title{
+	text-decoration: underline;
+	color:black;
+}
+.grid-title:hover,.grid:hover{
+	cursor:pointer;
+}
+.grid-title:hover{
+	cursor:pointer;
+	background-color: black;
+	color:white;
+	text-decoration: none;
+	transition:background-color 1s,color 1s,text-decoration 1s;
+}
+.grid-img{
+	filter:grayscale(1);
+}
+.grid-img:hover{
+	filter:grayscale(0);
+	transition-filter:1s;
+}
+a{
+	text-decoration:none;
+}
+.video-wrap{
+	
+}
